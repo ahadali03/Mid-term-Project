@@ -10,7 +10,9 @@ df['adjectives'] = df['reviews'].apply(get_adjectives)
 There are many more possiblities regarding parts of speech with this code which is why it can be so useful in an English or grammar based class
 
 # Install and Run Instructions
-Step 1 - Install TextBlob
+Step 1:
+
+Install TextBlob
 $ pip install -U textblob
 $ python -m textblob.download_corpora
 Step 2 - Install nltk
