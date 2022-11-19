@@ -11,6 +11,7 @@ There are many more possiblities regarding parts of speech with this code which 
 
 # Install and Run Instructions
 !!! open and run the file TextBlob.py !!!
+
 Step 1:
 Install TextBlob
 
