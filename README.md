@@ -49,5 +49,6 @@ nltk.download()
 # Code
 For this code to function correctly, there are many key lines of code that must be included
 For example, in line 5 the get_nouns_tagcount command is what is able to analyze the text and pull out all the nouns from it and number how many exist
-This only gives us the number of nouns, so to find out what the nouns are, in line 10, p=blob.noun_phrases, it pulls out all the nouns from whatever text is in place which is very useful as you can quickly and easily access the nouns.
+This only gives us the number of nouns, so to find out what the nouns are, in line 17 and 18, it pulls out all the nouns from whatever text is in place which is very useful as you can quickly and easily access the nouns.
 # Future Idea
+This code can be very useful in a classroom environment for students who want to analyze a large text to quickly find out information about it. This can save a lot of time and the comparison feature can also help as it can determine which texts have more parts of speech. Although it is quite simple, if worked on further the code can advance to an even higher level and perhaps accomplish more tasks. Overall, it is a simple yet efficient code that many people can use to help in any type of learning based environment that involves grammar and syntax.
