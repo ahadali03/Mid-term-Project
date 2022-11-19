@@ -10,4 +10,23 @@ df['adjectives'] = df['reviews'].apply(get_adjectives)
 There are many more possiblities regarding parts of speech with this code which is why it can be so useful in an English or grammar based class
 
 # Install and Run Instructions
+Step 1 - Install TextBlob
+$ pip install -U textblob
+$ python -m textblob.download_corpora
+Step 2 - Install nltk
+run pip install --user -U nltk
+Step 3 - Install nltk data
+import nltk
+nltk.download()
+!!! If issues occur and steps to install nltk data do not work this method can also be used to help !!!
+import nltk
+import ssl
 
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+nltk.download()
