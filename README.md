@@ -46,3 +46,8 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 nltk.download()
+# Code
+For this code to function correctly, there are many key lines of code that must be included
+For example, in line 5 the get_nouns_tagcount command is what is able to analyze the text and pull out all the nouns from it and number how many exist
+This only gives us the number of nouns, so to find out what the nouns are, in line 10, p=blob.noun_phrases, it pulls out all the nouns from whatever text is in place which is very useful as you can quickly and easily access the nouns.
+# Future Idea
