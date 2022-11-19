@@ -11,12 +11,14 @@ There are many more possiblities regarding parts of speech with this code which 
 
 # Install and Run Instructions
 Step 1:
-
 Install TextBlob
+
 $ pip install -U textblob
 $ python -m textblob.download_corpora
+
 Step 2 - Install nltk
 run pip install --user -U nltk
+
 Step 3 - Install nltk data
 import nltk
 nltk.download()
